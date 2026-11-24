@@ -1,6 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Sans:opsz,wght@9..40,100..1000&family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 
-:root {  }
+:root { 
+    --black: #14171a;
+    --grey:#2c3034;
+    --sec: #8c939a;
+    --celeston: #8ad7f8;
+    --claro: white;
+    --youtube: red;
+ }
 
 html {
     font-size: 10px;
@@ -10,38 +17,164 @@ html {
     font-family:"Dancing Script", cursive;
 }
 
+h1 {
+    font-size: 6rem;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+}
+
+h2, h3 {
+     font-family: "Merriweather", serif;
+     color: var(--celeston);
+}
+
+
+.nav-link {
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+.link-menu {
+  color: var(--sec);
+  transition: color 0.25s ease;
+}
+
+.link-menu:hover {
+  color: var(--claro);
+}
+
+header {
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+}
+
+header .container {
+  width: 100%;
+}
+
+
+.btn-mapa {
+ background-color: transparent;
+  color: var(--celeston);
+  border: 0.125rem solid var(--celeston);
+  border-radius: 0.5rem;
+  padding: 1.15rem 2.6rem;
+  font-size: 1.4rem;
+
+}
+
+.btn-mapa:hover {
+  background-color: var(--celeston);
+  color: var(--claro);
+ 
+}
+
 body { 
     font-family: "DM Sans", sans-serif;
 }
 
-header{
-    min-height: 85vh;
+
+.cartas{
+    min-height: 40vh;
 }
 
-h1 {
-    font-size: 6rem;
-    font-family: "Abril Fatface", serif;
-}
-.cartas{
-    min-height: 50vh;
-}
+
 .tarjeta-duelo {
+  background-color: var(--black);
+  border: 1px solid var(--grey);
+  transition: border-color 0.25s ease, background-color 0.25s ease;
   min-height: 220px;
 }
 
+.tarjeta-duelo:hover {
+  border-color: var(--celeston);
+  background-color: var(--grey);
+}
+
+.icono-duelo {
+  font-size: 2.2rem;
+  color: var(--celeston);
+}
+
+.numero-duelo {
+  font-size: 1.4rem;
+  color: var(--celeston);
+}
+
 .titulo-duelo {
-  font-size: 1.85rem;
+  font-size: 1.9rem;
+  color: var(--claro) !important;
 }
 
-.btn.btn-emparejamiento {
+.descripcion-duelo {
+  font-size: 1.5rem;
+  color: var(--claro);
+}
+
+.link-emparejamiento {
+  font-size: 1.3rem;
+  color: var(--celeston);
+  transition: color 0.25s ease;
+}
+
+.link-emparejamiento:hover {
+  color: var(--claro);
+}
+
+.title-agenda {
+    font-family: "Merriweather", serif;
+     color: var(--celeston);
+     border-color: var(--claro) !important;
+}
+
+.agenda-time {
+  font-size: 1.7rem;
+  color: var(--celeston);
+}
+
+.agenda-name {
+  font-size: 2rem;
+}
+
+.agenda-row {
   background-color: transparent;
-  color:white;
-  border: 1px solid white;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.25s ease;
+  min-height: 10vh;
 }
 
-.btn.btn-emparejamiento:hover {
-  background-color: #9eeaf9;
-  color: #000000;
+.agenda-row:hover {
+  background-color: var(--grey);
+}
 
+.agenda-desc {
+    font-size: 1.5rem;
+}
+
+#Ultimo .texto-cyan-200 {
+  color: var(--celeston);
+}
+
+.dato-titulo {
+  font-size: 1.5rem;
+  
+}
+
+
+.data {
+  font-size: 1.45rem;
+  transition: color 0.25s ease;
+  
+}
+
+
+
+.link-youtube {
+  color: var(--claro);
+  font-size: 3rem;
+  transition: color 0.3s ease;
+}
+
+.link-youtube:hover {
+  color: var(--youtube);
 }

@@ -1,15 +1,21 @@
 [
   {
+    "icono": "bi bi-lightning-charge-fill",
+    "numero": "Partido 01",
     "nombres": "Schwartzman/Monaco",
     "descripcion": "Duelo entre dos grandes batalladores.",
     "destino":"https://www.atptour.com/en/players/atp-head-2-head/juan-monaco-vs-diego-schwartzman/ma21/sm37"
   },
   {
+    "icono": "bi-trophy-fill",
+    "numero": "Partido 02",
     "nombres": "Coria/Gaudio",
     "descripcion": "Rememorando la final de Roland Garros 2004.",
     "destino": "https://www.atptour.com/es/players/atp-head-2-head/guillermo-coria-vs-gaston-gaudio/c524/g374"
   },
   {
+    "icono": "bi-fire",
+    "numero": "Partido 03",
     "nombres": "Del Potro/Nalbandian",
     "descripcion": "La batalla entre los dos mejores jugadores argentinos de este siglo.",
     "destino":"https://www.atptour.com/es/players/atp-head-2-head/juan-martin-del-potro-vs-david-nalbandian/d683/n301"

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Sans:opsz,wght@9..40,100..1000&family=Dancing+Script:wght@400..700&display=swap');
+
+:root {  }
+
+html {
+    font-size: 10px;
+}
+
+#leyendas{
+    font-family:"Dancing Script", cursive;
+}
+
+body { 
+    font-family: "DM Sans", sans-serif;
+}
+
+header{
+    min-height: 85vh;
+}
+
+h1 {
+    font-size: 6rem;
+    font-family: "Abril Fatface", serif;
+}
+.cartas{
+    min-height: 50vh;
+}
+.tarjeta-duelo {
+  min-height: 220px;
+}
+
+.titulo-duelo {
+  font-size: 1.85rem;
+}
+
+.btn.btn-emparejamiento {
+  background-color: transparent;
+  color:white;
+  border: 1px solid white;
+  transition: background-color 0.3s ease;
+}
+
+.btn.btn-emparejamiento:hover {
+  background-color: #9eeaf9;
+  color: #000000;
+
+}

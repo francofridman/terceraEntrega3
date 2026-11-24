@@ -1,44 +1,19 @@
 [
   {
-    "nombre": "Juan Martín del Potro",
-    "apodo": "La Torre de Tandil",
-    "mejorRanking": "N.° 3 ATP",
-    "destino":"https://www.atptour.com/es/players/juan-martin-del-potro/d683/overview",
-    "imagen":"img/delpo.jpg"
+    "nombres": "Schwartzman/Monaco",
+    "descripcion": "Duelo entre dos grandes batalladores.",
+    "destino":"https://www.atptour.com/en/players/atp-head-2-head/juan-monaco-vs-diego-schwartzman/ma21/sm37"
   },
   {
-    "nombre": "David Nalbandian",
-    "apodo": "El Rey David",
-    "mejorRanking": "N.° 3 ATP",
-    "destino": "https://www.atptour.com/es/players/david-nalbandian/n301/overview",
-    "imagen":"img/nalbandian.jpg"
+    "nombres": "Coria/Gaudio",
+    "descripcion": "Rememorando la final de Roland Garros 2004.",
+    "destino": "https://www.atptour.com/es/players/atp-head-2-head/guillermo-coria-vs-gaston-gaudio/c524/g374"
   },
   {
-    "nombre": "Juan Monaco",
-    "apodo": "Pico",
-    "mejorRanking": "N.° 10 ATP",
-    "destino":"https://www.atptour.com/es/players/juan-monaco/ma21/overview",
-    "imagen":"img/monaco.jpg"
-  },
-  {
-    "nombre": "Guillermo Coria",
-    "apodo": "El Mago",
-    "mejorRanking": "N.° 3 ATP",
-    "destino":" https://www.atptour.com/es/players/guillermo-coria/c524/overview",
-    "imagen":"img/coria.jpg"
-  },
-  {
-    "nombre": "Gastón Gaudio",
-    "apodo": "El Gato",
-    "mejorRanking": "N.° 5 ATP",
-    "destino":"https://www.atptour.com/es/players/gaston-gaudio/g374/overview",
-    "imagen":"img/gaudio.jpg"
-  },
-  {
-    "nombre": "Diego Schwartzman",
-    "apodo": "El Peque",
-    "mejorRanking": "N.° 8 ATP",
-    "destino":"https://www.atptour.com/es/players/diego-schwartzman/sm37/overview",
-    "imagen":"img/peque.jpg"
+    "nombres": "Del Potro/Nalbandian",
+    "descripcion": "La batalla entre los dos mejores jugadores argentinos de este siglo.",
+    "destino":"https://www.atptour.com/es/players/atp-head-2-head/juan-martin-del-potro-vs-david-nalbandian/d683/n301"
+
   }
+ 
 ]
